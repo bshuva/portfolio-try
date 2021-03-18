@@ -30,5 +30,10 @@ fields:
 - type: boolean
   name: dark_mode
   label: Dark mode
+- name: resume
+  type: file
+  config:
+    maxSize: 64
+  label: Resume
 pages:
 - data/theme.json
