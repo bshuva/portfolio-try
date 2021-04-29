@@ -2,6 +2,11 @@
 label: Theme configuration
 hide_body: true
 fields:
+- name: resume
+  type: file
+  config:
+    maxSize: 64
+  label: Resume
 - type: text
   name: site_name
   label: Site name
